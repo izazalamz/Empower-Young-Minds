@@ -99,6 +99,41 @@
       <div class="program__card"></div>
     </div>
   </section>
+
+  <!-- html element - form section -->
+  <section class="element">
+    <div class="element__left">
+      <div class="element__placeholder"></div>
+    </div>
+    <div class="element__right">
+      <h2>Sign up Now!</h2>
+      <p class="element__subtitle">
+        Fill out the form to sign up for our newsletter and recieve updates
+      </p>
+      <form class="element__form">
+        <h3>Your Interests:</h3>
+        <ul class="element__list">
+          <li class="element__list-item">Web Development</li>
+          <li class="element__list-item">UI/UX Design</li>
+          <li class="element__list-item">Digital Marketing</li>
+        </ul>
+        <div class="element__form-group">
+          <label for="username">Username:</label>
+          <input type="text" id="username" placeholder="Enter Username">
+        </div>
+        <div class="element__form-group">
+          <label for="course">Select Course:</label>
+          <select name="course" id="course">
+            <option value="">Choose a course...</option>
+            <option value="html">HTML</option>
+            <option value="js">Javascript</option>
+            <option value="react">React</option>
+          </select>
+        </div>
+        <button type="submit" class="element__button">Submit Form</button>
+      </form>
+    </div>
+  </section>
 </body>
 
 </html>

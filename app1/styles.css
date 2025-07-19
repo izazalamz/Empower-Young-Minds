@@ -127,3 +127,96 @@ button{
     height: 400px;
     padding: 30px;
 }
+
+/* ==============================
+------------  html element - form section   -----------------
+=================================*/
+
+.element{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+    gap: 60px;
+    background-color: #f8f9fa;
+}
+.element__left{
+    flex: 1;
+}
+.element__right{
+    flex: 1;
+}
+.element__subtitle{
+    color: #5d5d5d;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.element__form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.element__placeholder{
+    background-color: gray;
+    width: 100%;
+    height: 100%;
+}
+.element__list{
+    list-style-type: none;
+    padding-left: 0;
+}
+.element__list-item{
+    padding: 8px 0px;
+    border-bottom: 2px solid #e0e0e0;
+    color: #5d5d5d;
+}
+.element__list-item:before{
+    content: "→";
+    margin-right: 10px;
+    color: #34c789;
+}
+
+.element__form-group{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.element__form-group label{
+    color: #333;
+    font-weight: 500;
+}
+
+.element__form-group input,
+.element__form-group select{
+    padding: 12px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    font-family: inherit;
+
+}
+.element__form-group input:focus,
+.element__form-group select:focus{
+    outline: none;
+    border-color: #34c789;
+    box-shadow: 0 0 0 2px rgba(52,199,89,.2);
+
+}
+.element__form-group select{
+    cursor: pointer;
+    background-color: white;
+}
+.element__form-group option{
+    padding: 8px;
+}
+
+.element__button{
+    background-color: #34c789;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.5s;
+}
+.element__button:hover{
+    background-color: #6ed865;
+}
