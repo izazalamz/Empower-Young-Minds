@@ -1,12 +1,13 @@
 *{
     padding: 0;
-    margin: -0;
+    margin: 0;
+    box-sizing: border-box;
 }
 body{
     background-color: #f7f7f7;
     font-family: "Poppins", Times, serif;
 }
-
+                      
 .hero{
     padding: 100px;
 }
@@ -54,5 +55,56 @@ body{
 }
 .cta__description{
     padding: 15px 0;
-    
+    color: #dbdbdb;
 }
+
+button{
+    color: none;
+    border: none;
+}
+
+.cta__button{
+    padding: 10px 20px;
+}
+
+/* ==============================
+----------------Box Model-----------------
+=================================*/
+
+.video{
+    text-align: center;
+    padding: 100px;
+    font-weight: 500;
+}
+.video__title{
+    font-weight: 500;
+    font-size: 32px;
+}
+
+.video__description{
+    font-weight: 300;
+    color: #6e6e6e;
+    padding: 10px;
+}
+.video__controls{
+    margin-top: 20px;
+}
+.video__button{
+    border: 1px solid #5bb471;
+    padding: 10px 20px;
+    background: none;
+}
+.video__button--primary{
+    margin-right: 10px;
+}
+.video__container{
+    margin-top: 20px;
+    width: 100%;
+    background-color: #ccc;
+    height: 500px;
+    box-shadow: 1px 4px 7px 4px rgba(0,0,0,.30);
+}
+
+/* ==============================
+------------   FlexBox   -----------------
+=================================*/
