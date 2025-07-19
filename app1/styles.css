@@ -108,3 +108,22 @@ button{
 /* ==============================
 ------------   FlexBox   -----------------
 =================================*/
+
+.programs{
+    padding: 100px;
+    background-color: #eee;
+    padding-bottom: 200px;
+}
+.program__cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+.program__card{
+    background-color: #b5b5b5;
+    width: 30%;
+    height: 400px;
+    padding: 30px;
+}
